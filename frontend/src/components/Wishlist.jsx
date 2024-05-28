@@ -40,7 +40,7 @@ const navigate =useNavigate();
 
 <div>
           <button 
- onClick={()=>navigate('/product-list')}
+ onClick={()=>navigate('/')}
 className='inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:outline-none'>Add Product</button>
           </div>
     </div>

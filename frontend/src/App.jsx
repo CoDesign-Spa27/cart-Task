@@ -30,7 +30,7 @@ const dispatch =useDispatch();
   return (
    <BrowserRouter>
    <Routes >
-    <Route path='/product-list' element={<ProductList />} />
+    <Route path='/' element={<ProductList />} />
     <Route path='/cart' element={<Cart />} />
     <Route path='/wishlist' element={<Wishlist />} />
    </Routes>
