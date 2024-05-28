@@ -16,7 +16,7 @@ const dispatch =useDispatch();
 
   const  fetchProduct=async()=>{
       try{
-        const res=await axios.get("http://localhost:3000/api/products")
+        const res=await axios.get("https://cart-task.onrender.com/api/products")
        dispatch(handleProducts(res.data))
       }
       catch(e){
